@@ -1,0 +1,23 @@
+ Multiple Comparison of Means - Tukey HSD, FWER=0.05  
+======================================================
+ group1  group2 meandiff p-adj   lower   upper  reject
+------------------------------------------------------
+ Arabic Chinese  -0.0919    0.0 -0.1109 -0.0729   True
+ Arabic Persian   0.0795    0.0  0.0605  0.0985   True
+ Arabic Spanish   0.0622    0.0  0.0432  0.0812   True
+Chinese Persian   0.1714    0.0  0.1524  0.1904   True
+Chinese Spanish   0.1541    0.0  0.1351  0.1731   True
+Persian Spanish  -0.0173 0.0903 -0.0363  0.0017  False
+------------------------------------------------------
+
+ Multiple Comparison of Means - Tukey HSD, FWER=0.05  
+======================================================
+ group1  group2 meandiff p-adj   lower   upper  reject
+------------------------------------------------------
+ Arabic Chinese  -0.0919    0.0 -0.1109 -0.0729   True
+ Arabic Persian   0.0795    0.0  0.0605  0.0985   True
+ Arabic Spanish   0.0622    0.0  0.0432  0.0812   True
+Chinese Persian   0.1714    0.0  0.1524  0.1904   True
+Chinese Spanish   0.1541    0.0  0.1351  0.1731   True
+Persian Spanish  -0.0173 0.0903 -0.0363  0.0017  False
+----------------------------------------------
