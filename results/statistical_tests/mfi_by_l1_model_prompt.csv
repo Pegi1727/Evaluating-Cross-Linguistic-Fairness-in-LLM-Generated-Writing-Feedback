@@ -1,0 +1,13 @@
+Model,L1,Overall_Score
+Claude4,Arabic,4.186685000000001
+Claude4,Chinese,4.074935
+Claude4,Persian,4.25915
+Claude4,Spanish,4.24688
+GPT-4o,Arabic,4.3887849999999995
+GPT-4o,Chinese,4.30876
+GPT-4o,Persian,4.473835
+GPT-4o,Spanish,4.443944999999999
+Gemini2.5,Arabic,3.900895
+Gemini2.5,Chinese,3.8170349999999997
+Gemini2.5,Persian,3.981865
+Gemini2.5,Spanish,3.9722150000000003
