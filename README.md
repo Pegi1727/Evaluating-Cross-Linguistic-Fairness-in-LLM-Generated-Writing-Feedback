@@ -1,5 +1,3 @@
-# Evaluating-Cross-Linguistic-Fairness-in-LLM-Generated-Writing-Feedback
-This repository contains the benchmark, evaluation framework, and analysis code for studying cross-linguistic fairness in LLM-generated automated writing feedback for multilingual EFL learners.
 # Evaluating Cross-Linguistic Fairness in LLM-Generated Writing Feedback for Multilingual EFL Learners
 
 ![Framework Overview](figures/ga2.png)
@@ -21,8 +19,11 @@ We introduce two primary indices to quantify algorithmic bias and performance di
 ├── docs/                 # Supplementary documentation
 ├── figures/              # Plots and visualizations (including ga2.png)
 ├── notebooks/            # Jupyter notebooks for statistical analysis
-├── results/              # Output tables and statistical logs
+├── results/              # Output tables, statistical logs, and test results
+│   ├── statistical_tests/ # MANOVA and Tukey HSD statistical outputs
+│   ├── tables/           # Aggregated numerical reports
+│   ├── figures/          # Saved publication-ready plots
+│   └── logs/             # Preprocessing and analysis logs
 ├── src/                  # Core Python scripts (metrics.py, analyze.py)
 ├── .gitignore            # Git configuration
 └── requirements.txt      # Dependencies
-
