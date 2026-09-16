@@ -49,15 +49,15 @@ The study investigates systematic disparities in feedback quality across diverse
 </div>
 
 ---
-
 ### 3. Dimensional Correlations & Inter-Metric Relationships
 
 <div align="center">
-  <img src="figures/Figure3_heatmap.png" alt="Correlation Heatmap" width="75%"/>
-  <p><strong>Figure 3:</strong> Pearson Correlation Matrix Across Evaluated Quality Dimensions.</p>
+  <img src="analysis_outputs/figures/fig3_corr_heatmap.png" alt="Correlation Heatmap" width="75%"/>
+  <p>Figure 3: Pearson Correlation Matrix Across Evaluated Quality Dimensions.</p>
 </div>
 
 ---
+
 
 ### 4. Prompt Engineering Mitigation Effects
 
