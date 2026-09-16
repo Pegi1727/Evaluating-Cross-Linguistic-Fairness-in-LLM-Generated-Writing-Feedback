@@ -115,7 +115,7 @@ The study investigates systematic disparities in feedback quality across diverse
 ---
  ### 3. Mixed-Effects & OLS Regression Output (Overall Score)
 
-$$\text{Overall\_Score} = \beta_0 + \beta_1(\text{Model}) + \beta_2(\text{L1}) + \beta_3(\text{Prompt}) + \beta_4(\text{CEFR}) + \epsilon$$
+
 
 - **Fairness-Aware Prompting:** $\beta = +0.08$, $SE = 0.02$, $t = 4.21$, $p < .001$ *(Statistically significant bias reduction across all models)*
 - **Chinese L1 Disparity:** $\beta = -0.14$, $SE = 0.03$, $t = -4.66$, $p < .001$ *(Highest baseline systemic gap)*
