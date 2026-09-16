@@ -111,7 +111,7 @@ The study investigates systematic disparities in feedback quality across diverse
 | **Helpfulness** | 17.54 | < .001 | .09 | Moderate Disparity |
 | **Socio-Affective Tone** | 7.21 | < .01 | .04 | Low Disparity |
 
-### 3. Mixed-Effects & OLS Regression Output (`Overall_Score`)
+### ### 3. Mixed-Effects & OLS Regression Output (Overall Score)
 
 $$\text{Overall\_Score} = \beta_0 + \beta_1(\text{Model}) + \beta_2(\text{L1}) + \beta_3(\text{Prompt}) + \beta_4(\text{CEFR}) + \epsilon$$
 
