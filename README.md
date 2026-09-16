@@ -1,4 +1,3 @@
-
 # Evaluating Cross-Linguistic Fairness in LLM-Generated Writing Feedback using the Multilingual Feedback Fairness Index (MFFI)
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21440273.svg)](https://doi.org/10.5281/zenodo.21440273)
@@ -9,46 +8,81 @@
 
 ---
 
-## 📌 Overview & Key Visualizations
+## 🎨 Graphical Abstract
+
+<div align="center">
+  <img src="figures/graphical-abstract.png" alt="Graphical Abstract" width="95%"/>
+  <p><em>Graphical Summary of the Multilingual Feedback Fairness Index (MFFI) Evaluation Framework and Key Cross-Linguistic Findings.</em></p>
+</div>
+
+---
+
+## 📌 Overview & Conceptual Framework
 
 This repository contains the official dataset, statistical scripts (Python & R), and replication materials for the study: **"Evaluating Cross-Linguistic Fairness in LLM-Generated Writing Feedback using the Multilingual Feedback Fairness Index (MFFI)"**.
 
-The study investigates systematic disparities in feedback quality across diverse First Language (L1) backgrounds (Persian, Spanish, Arabic, Chinese), evaluates model performance (GPT-4o, Claude, Gemini 2.5), and demonstrates how fairness-aware prompt engineering mitigates cross-linguistic biases.
-
----
-
-### 📊 Figures & Visual Analysis
+The study investigates systematic disparities in feedback quality across diverse First Language (L1) backgrounds (Persian, Spanish, Arabic, Chinese), evaluates model performance (GPT-4o, Claude, Gemini 2.5), and demonstrates how fairness-aware prompt engineering mitigates cross-linguistic bias in automated writing evaluation.
 
 <div align="center">
-
-#### Figure 1: Feedback Quality Across LLMs and Prompt Strategies
-<img src="figures/fig1_model_prompt.png" alt="Overall Score by Model and Prompt" width="85%"/>
-
-*Figure 1: Overall feedback score distribution across LLM architectures (GPT-4o, Claude, Gemini 2.5) conditioned on Baseline vs. Fairness-Aware Prompting.*
-
----
-
-#### Figure 2: Cross-Linguistic Fairness Across Learner L1 Backgrounds
-<img src="figures/fig2_fairness_L1.png" alt="Fairness Across L1 Groups" width="85%"/>
-
-*Figure 2: Performance disparity across L1 groups (Persian, Spanish, Arabic, Chinese) and the gap-reduction effect introduced by fairness-aware instructions.*
-
----
-
-#### Figure 3: Pearson Correlation Heatmap of Quality Dimensions
-<img src="figures/fig3_corr_heatmap.png" alt="Correlation Heatmap" width="75%"/>
-
-*Figure 3: Inter-metric correlation matrix highlighting relationships between Feedback Quality Index (FQI), Human Ratings, Specificity, and Pedagogical Tone.*
-
----
-
-#### Figure 4 & 5: Human Validation and Proficiency Stratification
-| Figure 4: Human vs. LLM Overall Score | Figure 5: Overall Score by CEFR Proficiency |
-| :---: | :---: |
-| <img src="figures/fig4_human_vs_overall.png" alt="Human vs Overall Score" width="100%"/> | <img src="figures/fig5_cefr_box.png" alt="CEFR Boxplot" width="100%"/> |
-| *Correlation & alignment between expert human evaluations and automated scores.* | *Score distribution across CEFR language proficiency levels (A1–C2).* |
-
+  <img src="figures/Figure10_framework.png" alt="Framework Architecture" width="85%"/>
+  <p><strong>Figure 10:</strong> Conceptual Architecture of the Multilingual Feedback Fairness Evaluation Framework.</p>
 </div>
+
+---
+
+## 📊 Experimental Workflow & Comprehensive Visualizations
+
+### 1. Research Methodology & Execution Workflow
+
+<div align="center">
+  <img src="figures/Figure1_workflow.png" alt="Experimental Workflow" width="90%"/>
+  <p><strong>Figure 1:</strong> End-to-End Experimental & Analytical Workflow.</p>
+</div>
+
+---
+
+### 2. Disparity Analysis Across L1 Groups & LLM Architectures
+
+<div align="center">
+  <img src="figures/Figure2_L1_Model.png" alt="L1 by Model Disparity" width="85%"/>
+  <p><strong>Figure 2:</strong> Feedback Score Disparities across Learner L1 Backgrounds and LLM Models.</p>
+</div>
+
+---
+
+### 3. Dimensional Correlations & Inter-Metric Relationships
+
+<div align="center">
+  <img src="figures/Figure3_heatmap.png" alt="Correlation Heatmap" width="75%"/>
+  <p><strong>Figure 3:</strong> Pearson Correlation Matrix Across Evaluated Quality Dimensions.</p>
+</div>
+
+---
+
+### 4. Prompt Engineering Mitigation Effects
+
+| Figure 4: Prompt Effect Comparison | Figure 5: Score Distribution Shifts |
+| :---: | :---: |
+| <img src="figures/Figure4_prompt_effect.png" alt="Prompt Effect" width="100%"/> | <img src="figures/Figure5_prompt_distribution.png" alt="Prompt Distribution" width="100%"/> |
+| <em>Shift in Feedback Scores from Baseline to Fairness-Aware Prompting.</em> | <em>Score Density and Spread Across Prompting Conditions.</em> |
+
+---
+
+### 5. Proficiency Stratification & Fairness Metric Validation
+
+| Figure 6: L1 Disparities Across CEFR Levels | Figure 7: Multilingual Fairness Index (MFI) |
+| :---: | :---: |
+| <img src="figures/Figure6_L1_CEFR.png" alt="L1 by CEFR Level" width="100%"/> | <img src="figures/Figure7_MFI.png" alt="Multilingual Fairness Index" width="100%"/> |
+| <em>Cross-Linguistic Performance Stratified by CEFR Language Proficiency (A1–C2).</em> | <em>Comparative MFI Metric Across LLMs Under Baseline and Intervention Conditions.</em> |
+
+---
+
+### 6. Explainable AI (SHAP) & Bootstrap Robustness
+
+| Figure 8: SHAP Feature Importance | Figure 9: Bootstrap Confidence Interval Distributions |
+| :---: | :---: |
+| <img src="figures/Figure8_SHAP_importance.png" alt="SHAP Feature Importance" width="100%"/> | <img src="figures/Figure9_bootstrap.png" alt="Bootstrap Distribution" width="100%"/> |
+| <em>XAI Feature Attribution for Model Score Predictions.</em> | <em>Bootstrap Confidence Interval Distributions Validating Effect Stability.</em> |
 
 ---
 
@@ -66,7 +100,7 @@ The study investigates systematic disparities in feedback quality across diverse
 | **Arabic L1** | 4.044 | 3.654 | — | — | $\Delta = -0.08$ ($p = .012$) |
 | **Chinese L1** | **3.864** | 3.361 | — | — | $\Delta = -0.14$ ($p < .001$) |
 
-### 2. One-Way ANOVA across L1 Groups
+### 2. One-Way ANOVA Across L1 Backgrounds
 
 | Feedback Dimension | $F$-statistic | $p$-value | Partial $\eta^2$ | Disparity Level |
 | :--- | :---: | :---: | :---: | :---: |
@@ -77,64 +111,52 @@ The study investigates systematic disparities in feedback quality across diverse
 | **Helpfulness** | 17.54 | < .001 | .09 | Moderate Disparity |
 | **Socio-Affective Tone** | 7.21 | < .01 | .04 | Low Disparity |
 
-### 3. Mixed-Effects & OLS Regression (Dependent Variable: `Overall_Score`)
+### 3. Mixed-Effects & OLS Regression Output (`Overall_Score`)
 
 $$\text{Overall\_Score} = \beta_0 + \beta_1(\text{Model}) + \beta_2(\text{L1}) + \beta_3(\text{Prompt}) + \beta_4(\text{CEFR}) + \epsilon$$
 
-- **Fairness-Aware Prompting:** $\beta = +0.08$, $SE = 0.02$, $t = 4.21$, $p < .001$ *(Significant overall bias reduction)*
-- **Chinese L1 Disparity:** $\beta = -0.14$, $SE = 0.03$, $t = -4.66$, $p < .001$ *(Baseline gap against Persian/Spanish)*
-- **CEFR Level:** $\beta = +0.21$, $SE = 0.03$, $t = 7.00$, $p < .001$ *(Higher proficiency receives more coherent feedback)*
+- **Fairness-Aware Prompting:** $\beta = +0.08$, $SE = 0.02$, $t = 4.21$, $p < .001$ *(Statistically significant bias reduction across all models)*
+- **Chinese L1 Disparity:** $\beta = -0.14$, $SE = 0.03$, $t = -4.66$, $p < .001$ *(Highest baseline systemic gap)*
+- **CEFR Level:** $\beta = +0.21$, $SE = 0.03$, $t = 7.00$, $p < .001$ *(Higher proficiency correlates with superior feedback specificity)*
 
 ---
 
 ## 🔬 Key Conclusions
 
-1. **Systematic L1 Disparities Exist:** LLM writing feedback models exhibit measurable unfairness across L1 backgrounds. Chinese and Arabic L1 essays experience higher error-density penalties and lower specificity ratings compared to Indo-European / Persian counterparts.
-2. **Fairness-Aware Prompt Engineering Works:** Introducing explicit sociolinguistic and cross-linguistic constraints into LLM prompts reduces the cross-linguistic performance gap significantly (up to $\Delta = +0.06$ MFFI improvement in Gemini 2.5).
-3. **Metric Alignment:** Automated Feedback Quality Index (FQI) scores strongly align with expert human evaluator ratings ($r > 0.82$), validating MFFI as a standard benchmark for pedagogical NLP fairness.
+1. **Evidence of Systematic L1 Disparities:** State-of-the-art LLMs generate non-uniform writing feedback across learner L1 backgrounds. Non-Western / non-Indo-European L1 essays (e.g., Chinese and Arabic) suffer from systemic penalties in actionability and specificity.
+2. **Mitigation via Prompt Engineering:** Fairness-aware prompt design successfully narrows the cross-linguistic feedback gap, yielding statistically significant fairness index improvements across all models (up to $+0.06$ MFFI gain).
+3. **Metric Validation:** Robust correlation between human expert evaluation and automated Feedback Quality Index ($r > 0.82$) confirms the applicability of MFFI as a standard benchmark for pedagogical AI fairness.
 
 ---
-📜 Citation
-If you find this dataset, code, or methodology helpful in your research, please cite:
 
-bibtex
-@misc{merrikhi2026evaluating,
-  author       = {Merrikhi, Pegah},
-  title        = {{Evaluating Cross-Linguistic Fairness in LLM-Generated Writing Feedback using the Multilingual Feedback Fairness Index (MFFI)}},
-  year         = {2026},
-  version      = {v1.0.0.cr},
-  publisher    = {Zenodo},
-  doi          = {10.5281/zenodo.21440273},
-  url          = {https://doi.org/10.5281/zenodo.21440273}
-}
----
-
-📄 License
-This repository is distributed under the MIT License. See LICENSE for complete terms.
-
----
 ## 📁 Repository Structure
 ```text
 Evaluating-Cross-Linguistic-Fairness-in-LLM-Generated-Writing-Feedback/
 ├── data/
 │   └── Fairness_Full_Dataset.csv          # Full experimental dataset (24,000 observations)
-├── figures/                               # Publication-ready figures (300 DPI)
-│   ├── fig1_model_prompt.png
-│   ├── fig2_fairness_L1.png
-│   ├── fig3_corr_heatmap.png
-│   ├── fig4_human_vs_overall.png
-│   └── fig5_cefr_box.png
-├── notebooks/                             # Interactive Jupyter Notebooks
+├── figures/                               # Publication-ready figures & conceptual diagrams
+│   ├── Figure1_workflow.png
+│   ├── Figure2_L1_Model.png
+│   ├── Figure3_heatmap.png
+│   ├── Figure4_prompt_effect.png
+│   ├── Figure5_prompt_distribution.png
+│   ├── Figure6_L1_CEFR.png
+│   ├── Figure7_MFI.png
+│   ├── Figure8_SHAP_importance.png
+│   ├── Figure9_bootstrap.png
+│   ├── Figure10_framework.png
+│   └── graphical-abstract.png
+├── notebooks/                             # Jupyter replication notebooks
 │   ├── 01_Statistical_Analysis_Benchmark.ipynb
 │   └── 02_Explainable_AI_SHAP_Analysis.ipynb
-├── results/                               # Statistical outputs & summary tables
+├── results/                               # Exported statistical summary tables
 │   ├── statistical_tests/
 │   └── Fairness_Analysis_Results.xlsx
-├── scripts/                               # Executable analysis pipelines (Python & R)
+├── scripts/                               # Execution code (Python & R)
 │   ├── 01_statistical_analysis.R
 │   ├── 02_regression_and_correlation.R
 │   ├── 03_plots.R
 │   └── run_analysis.py
 ├── LICENSE                                # MIT License
-├── README.md                              # Main documentation
+├── README.md                              # Main project overview & documentation
 └── Requirements.text                      # Environment dependencies
