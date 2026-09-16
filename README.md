@@ -111,7 +111,7 @@ The study investigates systematic disparities in feedback quality across diverse
 | **Helpfulness** | 17.54 | < .001 | .09 | Moderate Disparity |
 | **Socio-Affective Tone** | 7.21 | < .01 | .04 | Low Disparity |
 
-### ### 3. Mixed-Effects & OLS Regression Output (Overall Score)
+### ### 3. ### 3. Mixed-Effects & OLS Regression Output (Overall Score)
 
 $$\text{Overall\_Score} = \beta_0 + \beta_1(\text{Model}) + \beta_2(\text{L1}) + \beta_3(\text{Prompt}) + \beta_4(\text{CEFR}) + \epsilon$$
 
@@ -128,7 +128,45 @@ $$\text{Overall\_Score} = \beta_0 + \beta_1(\text{Model}) + \beta_2(\text{L1}) +
 3. **Metric Validation:** Robust correlation between human expert evaluation and automated Feedback Quality Index ($r > 0.82$) confirms the applicability of MFFI as a standard benchmark for pedagogical AI fairness.
 
 ---
+🚀 Quick Start & Replication
+Running Python Pipeline
+bash
+# Clone the repository
+git clone https://github.com/Pegi1727/Evaluating-Cross-Linguistic-Fairness-in-LLM-Generated-Writing-Feedback.git
+cd Evaluating-Cross-Linguistic-Fairness-in-LLM-Generated-Writing-Feedback
 
+# Install dependencies
+pip install -r Requirements.text
+
+# Run full analysis
+python scripts/run_analysis.py
+Running R Analysis Scripts
+r
+# Run directly inside R environment
+source("scripts/01_statistical_analysis.R")
+source("scripts/02_regression_and_correlation.R")
+source("scripts/03_plots.R")
+
+---
+📜 Citation
+If you use this dataset, pipeline, or fairness index framework in your research, please cite:
+
+ibtex
+@misc{merrikhi2026evaluating,
+  author       = {Merrikhi, Pegah},
+  title        = {{Evaluating Cross-Linguistic Fairness in LLM-Generated Writing Feedback using the Multilingual Feedback Fairness Index (MFFI)}},
+  year         = {2026},
+  version      = {v1.0.0.cr},
+  publisher    = {Zenodo},
+  doi          = {10.5281/zenodo.21440273},
+  url          = {https://doi.org/10.5281/zenodo.21440273}
+}
+---
+
+📄 License
+This repository is distributed under the MIT License. See LICENSE for full details.
+
+----
 ## 📁 Repository Structure
 ```text
 Evaluating-Cross-Linguistic-Fairness-in-LLM-Generated-Writing-Feedback/
