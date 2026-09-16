@@ -1,0 +1,16 @@
+Column,Dtype,N_missing,N_unique,Mean,Std,Min,Max
+Essay_ID,int64,0,4000,2000.5,1154.7246,1.0,4000.0
+L1,object,0,4,,,,
+CEFR,object,0,3,,,,
+Model,object,0,3,,,,
+Prompt,object,0,2,,,,
+Overall_Score,float64,0,23986,4.0817,0.3346,2.961046786263804,5.0
+Human_Score,float64,0,23960,3.6907,0.4707,1.834362860388196,5.0
+Accuracy,float64,0,23954,4.0807,0.3553,2.749630240733276,5.0
+Helpfulness,float64,0,23958,4.0807,0.3545,2.794243179212052,5.0
+Specificity,float64,0,23956,4.0816,0.3551,2.823121336945412,5.0
+Actionability,float64,0,23939,4.0827,0.357,2.8082809756278726,5.0
+Pedagogical_Appropriateness,float64,0,23960,4.0816,0.3556,2.569883435950775,5.0
+Socio_Affective_Tone,float64,0,23948,4.0804,0.3557,2.8046421907992025,5.0
+Error_Density,float64,0,23994,0.5005,0.1625,0.0,1.0
+Lexical_Sophistication,float64,0,22542,0.7983,0.1233,0.308365700201654,1.0

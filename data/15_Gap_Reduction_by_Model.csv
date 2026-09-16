@@ -1,0 +1,4 @@
+Model,()_max_gap,FairnessAware_max_gap,Baseline_SD_L1,FairnessAware_SD_L1,Gap_reduction
+Claude 4,0.3824,0.3828,0.1699,0.1675,-0.0004
+GPT-4o,0.3783,0.3861,0.1676,0.1708,-0.0079
+Gemini 2.5,0.388,0.3843,0.171,0.1691,0.0037

@@ -1,0 +1,3 @@
+Overall_Score_mean,Overall_Score_std,Human_Score_mean,Human_Score_std,Accuracy_mean,Accuracy_std,Helpfulness_mean,Helpfulness_std,Specificity_mean,Specificity_std,Actionability_mean,Actionability_std,Pedagogical_Appropriateness_mean,Pedagogical_Appropriateness_std,Socio_Affective_Tone_mean,Socio_Affective_Tone_std
+4.0413,0.3319,3.6489,0.4696,4.0399,0.3536,4.0403,0.3514,4.0413,0.3536,4.0422,0.3552,4.041,0.3531,4.0402,0.3527
+4.1221,0.3325,3.7325,0.4682,4.1215,0.3523,4.1211,0.353,4.122,0.3521,4.1232,0.3543,4.1221,0.3535,4.1207,0.3542

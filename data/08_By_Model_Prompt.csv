@@ -1,0 +1,7 @@
+Model,Prompt,Overall_Score,Human_Score,Accuracy,Helpfulness,Specificity,Actionability,Pedagogical_Appropriateness,Socio_Affective_Tone
+Claude 4,Baseline,4.056,3.6619,4.0545,4.0545,4.0516,4.056,4.0546,4.0537
+Claude 4,FairnessAware,4.1388,3.7523,4.137,4.1368,4.1384,4.1373,4.1392,4.1385
+GPT-4o,Baseline,4.3073,3.9176,4.3072,4.3034,4.3121,4.3108,4.3086,4.3072
+GPT-4o,FairnessAware,4.3851,3.9944,4.3845,4.3827,4.384,4.3881,4.3861,4.3841
+Gemini 2.5,Baseline,3.7607,3.3672,3.7581,3.763,3.7602,3.7599,3.7598,3.7597
+Gemini 2.5,FairnessAware,3.8423,3.4508,3.843,3.8438,3.8436,3.8441,3.841,3.8395

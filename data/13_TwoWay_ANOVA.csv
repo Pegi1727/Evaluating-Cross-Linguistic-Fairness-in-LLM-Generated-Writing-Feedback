@@ -1,0 +1,15 @@
+DV,Term,F,p,sum_sq
+Overall_Score,C(Model),18073.197,0,1189.651
+Overall_Score,C(Prompt),1188.206,3.52e-254,39.106
+Overall_Score,C(L1),5233.339,0,516.72
+Overall_Score,C(CEFR),2356.449,0,155.111
+Overall_Score,C(Model):C(Prompt),0.433,0.648,0.029
+Overall_Score,C(L1):C(Prompt),0.351,0.789,0.035
+Overall_Score,Residual,,,789.428
+Human_Score,C(Model),4982.715,0,1200.046
+Human_Score,C(Prompt),348.126,3.82e-77,41.922
+Human_Score,C(L1),2818.825,0,1018.336
+Human_Score,C(CEFR),713.677,8.43e-302,171.883
+Human_Score,C(Model):C(Prompt),0.755,0.47,0.182
+Human_Score,C(L1):C(Prompt),2.698,0.0441,0.975
+Human_Score,Residual,,,2888.416

@@ -1,0 +1,7 @@
+Model,Prompt,Mean_Arabic,Mean_Chinese,Mean_Persian,Mean_Spanish,Max_gap,SD_across_L1
+Claude 4,Baseline,4.0147,3.8385,4.2209,4.1579,0.3824,0.1699
+Claude 4,FairnessAware,4.0967,3.9269,4.3097,4.23,0.3828,0.1675
+GPT-4o,Baseline,4.2725,4.0898,4.4681,4.4067,0.3783,0.1676
+GPT-4o,FairnessAware,4.3444,4.1664,4.5525,4.485,0.3861,0.1708
+Gemini 2.5,Baseline,3.7221,3.5408,3.9288,3.8591,0.388,0.171
+Gemini 2.5,FairnessAware,3.8119,3.621,4.0053,3.9389,0.3843,0.1691

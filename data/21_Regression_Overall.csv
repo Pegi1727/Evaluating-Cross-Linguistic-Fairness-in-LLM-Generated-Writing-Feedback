@@ -1,0 +1,12 @@
+Term,Coef,SE,p
+Intercept,3.9145,0.0124,0
+C(Model)[T.GPT-4o],0.2488,0.0029,0
+C(Model)[T.Gemini 2.5],-0.2959,0.0029,0
+C(Prompt)[T.FairnessAware],0.0807,0.0023,3.6e-254
+C(L1)[T.Chinese],-0.1793,0.0033,0
+C(L1)[T.Persian],0.2056,0.004,0
+C(L1)[T.Spanish],0.1391,0.004,1.15e-252
+C(CEFR)[T.B2],0.096,0.0034,2.29e-176
+C(CEFR)[T.C1],0.196,0.0044,0
+Error_Density,0.0039,0.0117,0.739
+Lexical_Sophistication,0.004,0.0124,0.749
